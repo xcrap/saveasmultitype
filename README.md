@@ -1,7 +1,7 @@
 # Save as MultiType
 
 ## Description
-Just a quick extenstion to allow users to save images as JPEG or PNG.
+Just a quick extension to allow users to save images as JPEG or PNG.
 This is a work in progress, let me know if you find any problems.
 
 ## Features
