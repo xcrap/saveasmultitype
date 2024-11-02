@@ -1,2 +1,4 @@
 /node_modules
 /dist/styles.min.css
+dist.crx
+dist.pem
