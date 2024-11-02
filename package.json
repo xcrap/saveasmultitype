@@ -1,0 +1,11 @@
+{
+    "name": "save-as-multitype",
+    "version": "1.0.0",
+    "scripts": {
+        "build:css": "tailwindcss -i ./src/styles.css -o ./dist/styles.min.css --minify",
+        "watch:css": "tailwindcss -i ./src/styles.css -o ./dist/styles.min.css --watch"
+    },
+    "devDependencies": {
+        "tailwindcss": "^3.4.10"
+    }
+}

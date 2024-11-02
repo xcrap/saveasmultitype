@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Save as Type Pro</title>
+  <link href="styles.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-100 min-w-[300px]">
+  <div class="bg-white rounded-lg shadow-md p-6">
+    <h3 class="text-xl font-bold mb-4 text-gray-800">Save as Multitype</h3>
+
+    <div class="mb-4">
+      <label for="filename" class="block text-sm font-medium text-gray-700 mb-1">Default filename:</label>
+      <input type="text" id="filename" placeholder="image-{date}" class="w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500">
+    </div>
+
+    <div class="mb-4">
+      <label for="jpgQuality" class="block text-sm font-medium text-gray-700 mb-1">JPG Quality (1-100):</label>
+      <input type="range" id="jpgQuality" min="1" max="100" value="100" class="w-full py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500">
+    </div>
+
+    <div class="mb-4">
+      <label for="resize" class="block text-sm font-medium text-gray-700 mb-1">Resize images:</label>
+      <select id="resize" class="w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500">
+        <option value="none">No resizing</option>
+        <option value="50">50% of original</option>
+        <option value="75">75% of original</option>
+        <option value="1080">1080p max</option>
+        <option value="720">720p max</option>
+      </select>
+    </div>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html>
