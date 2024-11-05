@@ -1,13 +1,12 @@
 {
     "manifest_version": 3,
     "name": "Save as MultiType",
-    "version": "1.0",
+    "version": "1.1",
     "description": "Save images (including WebP) as JPG or PNG with advanced options",
     "permissions": [
         "downloads",
         "contextMenus",
         "storage",
-        "tabs",
         "scripting"
     ],
     "host_permissions": [
